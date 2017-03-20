@@ -5,7 +5,8 @@ JC = javac
 	$(JC) $(JFLAGS) $*.java
 
 CLASSES = \
-	Timer.java
+	Timer.java \
+	Main.java
 
 default: classes
 
